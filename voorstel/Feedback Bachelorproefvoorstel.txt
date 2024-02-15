@@ -1,0 +1,88 @@
+Feedback Bachelorproefvoorstel
+
+
+Bronnen niet allemaal even kwalitatief: dit gaat over de bedrijfspagina's -> in footnotes opnemen ipv in de bronvermelding
+
+
+
+
+Deelvragen
+
+"Data Dunk: Beeldanalyse en gebruik van Machine Learning algoritmes voor het identificeren van spelers en bijhouden van scores en statistieken in basketbalwedstrijden."
+
+- Hoe kan beeldanalyse worden toegepast om spelers in een basketbalwedstrijd nauwkeurig te identificeren?
+- Op welke manieren kunnen Machine Learning-algoritmes worden gebruikt om scores in realtime bij te houden tijdens een basketbalwedstrijd?
+- Welke specifieke uitdagingen en obstakels zijn er bij het identificeren van spelers in dynamische en snel veranderende situaties zoals een basketbalwedstrijd?
+- Hoe kan het model omgaan met variaties in verlichting, camerahoeken en andere omgevingsfactoren die typisch zijn aan live basketbalwedstrijden?
+- Welke bronnen en datasets zijn het meest geschikt voor het trainen van het model en het verbeteren van de nauwkeurigheid van de beeldanalyse?
+- Hoe kan het model omgaan met variabiliteit in spelersbewegingen, zoals sprints, draaiingen en abrupte veranderingen in richting?
+- Op welke manier kan het systeem de bal in realtime volgen en onderscheiden van andere objecten op het veld?
+- Welke invloed heeft de kwaliteit en het type van de gebruikte camera's op de nauwkeurigheid van de beeldanalyse en het identificeren van spelers?
+- Hoe kan het model de gebaren en handsignalen van scheidsrechters interpreteren en deze informatie integreren in de statistische analyse van de wedstrijd?
+	Is er een mogelijkheid om de gebaren en handsignalen van scheidsrechters te interpreteren en hierdoor extra informatie en automatisatie aan te bieden in de statistische analyse van de wedstrijd?
+- In hoeverre is het mogelijk om onderscheid te maken tussen verschillende soorten scores, zoals vrije worpen, tweepunters en driepunters, met behulp van het voorgestelde systeem?
+- Hoe kan de mogelijkheid tot manuele aanpassingen (in scores) in het model tijdens de wedstrijd zelf geïntegreerd worden om zo voor verbetering te zorgen?
+
+
+
+
+Meetresultaten geslaagde BP
+
+Verder uitschrijven ->
+	Om na te gaan of de bachelorproef geslaagd is, zullen er verschillende zaken in rekening gebracht worden;
+
+- De nauwkeurigheid van het identificeren van de spelers
+- De nauwkeurigheid van de bijgehouden scores van het systeem tov de werkelijke scores
+- De snelheid van het model tijdens real-time gebruik
+- Het aanpassingsvermogen van het model in verschillede competitieniveau's
+- Het bijhouden van het foutenpercentage bij talrijke zaken zoals de spelersidentificatie, de scores, ...
+
+
+
+
+Eigen inbreng
+
+- De probleemstelling meer benadrukken / uitgebreider schrijven of er meer focus op leggen
+- Bestaande algoritmes/modellen aanpassen om ze te verbeteren of een totaal nieuw algoritme maken
+- Reflecteren op gemaakte keuzes tijdens het ontwikkelingsproces
+- Interactie met tafelofficials, coaches en spelers
+- Mogelijke toekomstige innovaties mee integreren
+- ? Persoonlijke ervaringen (als toeschouwer in mijn geval) erbij betrekken ?
+
+
+
+
+
+Feedback uit gesprek:
+
+1) Deelvragen in introductie
+2) Eigen inbreng: dit was oke -> moet duidelijker geschreven worden want hij dacht dat ik een bestaand model ging nemen en er niets aan ging aanpassen of verbeteren.
+3) De methodologie beetje uitgebreider schrijven OF puntjes bij elkaar nemen aangezien er nu meerdere kleine puntjes aanwezig zijn.
+
+
+
+
+Gemaakte aanpassingen:
+- Bronnen 🟢
+- Deelvragen 🟢
+- Meetresultaten 🟢
+- Eigen inbreng 🟢
+- Verdere innovaties 🟢
+- Methodologie 🟢
+
+
+
+
+Gesprek co-promotor 14/02/2024:
+
+extract statistics, tracking problem with camera, tracking of the ball, model finetuning aanpassen, challenges (tracking, statistics, hardware, pre-trained model, training model, biggest challenge: finding data)
+wanneer is de bal in het bezit van een speler (extra, want is niet echt van toepassing op mijn onderzoek)
+kaggle, roboflow voor datasets te vinden
+YOLO voor modellen
+videos en frames van videos voor data, geen afbeeldingen
+local basketball teams voor video's van hun games
+stationary camera (vast beeld, geen motion) voor de dataset video, 1 à 2 volledige wedstrijden zou genoeg moeten zijn (qua totale tijd, kan dus ook van bvb 4 matchen zijn van elk een helft, ...)
+training van model in google colab
+
+
+

@@ -8,9 +8,13 @@
 % Let op: kan enkel na toestemming van de bachelorproefcoördinator!
 \documentclass{hogent-article}
 
-% Invoegen bibliografiebestand
-\addbibresource{voorstel.bib}
+% \usepackage{hyperref}
+\usepackage{biblatex}
+\usepackage{graphicx}  % Voor afbeeldingen
+\graphicspath{ {./graphics/} }
 
+% Invoegen bibliografiebestand
+\addbibresource{MarckxKyana-BPvoorstel.bib}
 % Informatie over de opleiding, het vak en soort opdracht
 \studyprogramme{Professionele bachelor toegepaste informatica}
 \course{Bachelorproef}
@@ -23,7 +27,7 @@
 \academicyear{2023-2024} % TODO: pas het academiejaar aan
 
 % TODO: Werktitel
-\title{Data Dunk: Beeldanalyse en gebruik van Machine Learning algoritmes voor het identificeren en bijhouden van scores en statistieken in basketbalwedstrijden.}
+\title{Data Dunk: Beeldanalyse en gebruik van Machine Learning algoritmes voor het identificeren van spelers en bijhouden van scores en statistieken in \\basketbalwedstrijden.}
 
 % TODO: Studentnaam en emailadres invullen
 \author{Kyana Marckx}
@@ -36,7 +40,7 @@
 % \email{yasmine.alaoui@student.hogent.be}
 
 % TODO: Geef de co-promotor op
-\supervisor[Co-promotor]{S. Beekman (Synalco, \href{mailto:sigrid.beekman@synalco.be}{sigrid.beekman@synalco.be})}
+\supervisor[Co-promotor] { \href{mailto:sarper.yurttas@mypitch.app}{Sarper Levent Yurttas}, MyPitch}
 
 % Binnen welke specialisatierichting uit 3TI situeert dit onderzoek zich?
 % Kies uit deze lijst:
@@ -55,15 +59,23 @@
 \begin{document}
 
 \begin{abstract}
-  Hier schrijf je de samenvatting van je voorstel, als een doorlopende tekst van één paragraaf. Let op: dit is geen inleiding, maar een samenvattende tekst van heel je voorstel met inleiding (voorstelling, kaderen thema), probleemstelling en centrale onderzoeksvraag, onderzoeksdoelstelling (wat zie je als het concrete resultaat van je bachelorproef?), voorgestelde methodologie, verwachte resultaten en meerwaarde van dit onderzoek (wat heeft de doelgroep aan het resultaat?).
+  % Hier schrijf je de samenvatting van je voorstel, als een doorlopende tekst van één paragraaf. Let op: dit is geen inleiding, maar een samenvattende tekst van heel je voorstel met inleiding (voorstelling, kaderen thema), probleemstelling en centrale onderzoeksvraag, onderzoeksdoelstelling (wat zie je als het concrete resultaat van je bachelorproef?), voorgestelde methodologie, verwachte resultaten en meerwaarde van dit onderzoek (wat heeft de doelgroep aan het resultaat?).
+  
+  Deze studie onderzoekt de integratie van beeldanalyse en machine learning in basketbalwedstrijden voor het \\automatisch identificeren en vastleggen van spelers, objecten, scores en statistieken. Het heeft tot doel het werk van tafelofficials te stroomlijnen en geautomatiseerde analyses te bieden aan spelers en coaches in de snel \\evoluerende basketbalomgeving. De methodologie omvat het verzamelen van gegevens, data-annotatie, \\splitting en parsing van de geannoteerde data, het opstellen en verder uitbouwen van modellen, training, model finetuning en front-end-ontwikkeling. Het gewenste resultaat, ``Data Dunk'', is een systeem dat  automatisch scores, spelers, ballen, etc. in realtime kan identificeren. Het visualiseren van resultaten op een website of in een spreadsheet levert waardevolle inzichten op, waaronder gedetailleerde statistieken zoals individuele punten, rebounds, speeltijd en vrije worpen. Dit onderzoek vertegenwoordigt een technologische vooruitgang en een strategische stap naar een slimmere en efficiëntere basketbalervaring voor tafelofficials, spelers en coaches.
 \end{abstract}
 
 \tableofcontents
 
 % De hoofdtekst van het voorstel zit in een apart bestand, zodat het makkelijk
-% kan opgenomen worden in de bijlagen van de bachelorproef zelf.
+% kan opgenomen worden in de bijlagen van de bachelorproef zelf.\cite{Cheshire2015,Finlay2023}
 \input{voorstel-inhoud}
 
+%------------------------------------------------------------------------------
+% Referentielijst
+%------------------------------------------------------------------------------
+
+%\bibliographystyle{plain}
+%\bibliography{bach-voorstel}
 \printbibliography[heading=bibintoc]
 
 \end{document}
